@@ -34,7 +34,7 @@ const Todo = ({ todo, getTodos }) => {
             <div className="px-4 pt-2 pb-4">
                 <h2 className="text font-semibold">{todo.name}</h2>
                 <div className="mt-2 flex gap-4">
-                    <button onClick={() => deleteTodo(todo._id)}  className="inline-block w-full text-center shadow-md text-sm bg-red-700 text-white rounded-sm px-4 py-1 font-bold hover:bg-red-600 hover:cursor-pointer">Delete</button>
+                    <button onClick={() => deleteTodo(todo.id)}  className="inline-block w-full text-center shadow-md text-sm bg-red-700 text-white rounded-sm px-4 py-1 font-bold hover:bg-red-600 hover:cursor-pointer">Delete</button>
                 </div>
 
 
